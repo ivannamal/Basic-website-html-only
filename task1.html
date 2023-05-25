@@ -2,41 +2,47 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Форма викладача</title>
+  <title>Форма для додавання викладача</title>
 </head>
 <body>
 <h2>Додавання викладача</h2>
+<section>
   <label for="full_name">Повне ім'я:</label>
   <input type="text" id="full_name" name="full_name" required><br>
-
+</section>
   <label for="gender">Стать:</label>
   <select id="gender" name="gender" required>
     <option value="male">Чоловіча</option>
     <option value="female">Жіноча</option>
   </select><br>
-
+<section>
   <label for="birthdate">Дата народження:</label>
   <input type="date" id="birthdate" name="birthdate" required><br>
-
+</section>
+<section>
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" required><br>
-
+</section>
+<section>
   <label for="phone">Телефон:</label>
   <input type="tel" id="phone" name="phone" required><br>
-
+</section>
+<section>
   <label for="background_color">Бажаний колір фону:</label>
   <input type="color" id="background_color" name="background_color"><br>
-
+</section>
+<section>
   <label for="country">Країна:</label>
   <input type="text" id="country" name="country" required><br>
-
+</section>
+<section>
   <label for="city">Місто:</label>
   <input type="text" id="city" name="city" required><br>
-
+</section>
+<section>
   <label for="comment">Коментар:</label>
   <textarea id="comment" name="comment"></textarea><br>
-
+</section>
   <input type="submit" value="Додати">
-</form>
 </body>
 </html>
